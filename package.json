@@ -1,0 +1,16 @@
+{
+  "name": "ai-taokouzi",
+  "private": true,
+  "workspaces": [
+    "client",
+    "admin",
+    "backend"
+  ],
+  "scripts": {
+    "install-all": "npm install",
+    "dev:client": "npm --workspace client run dev",
+    "dev:admin": "npm --workspace admin run dev",
+    "dev:backend": "npm --workspace backend run dev",
+    "start:backend": "npm --workspace backend start"
+  }
+}

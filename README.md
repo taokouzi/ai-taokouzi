@@ -20,7 +20,7 @@
 4. 项目目录结构参考（推荐 monorepo，一个 git 仓库管理全部代码）
 
 ```
-blog-project/
+ai-taokouzi/
 ├─ client/        #博客客户端前端，打包后部署GitHub Pages
 ├─ admin/         #管理后台前端，打包部署Vercel
 └─ backend/       #Node Express后端API，部署Render
